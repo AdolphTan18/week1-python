@@ -114,6 +114,7 @@ print("TASK 10")
 for snack, number in sorted_sales:
     if number==average:
         print(snack)
+        break
 else:
     print("None")
 
